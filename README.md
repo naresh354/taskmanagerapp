@@ -1,30 +1,31 @@
-# React + TypeScript + Vite
+Task Manager App
+The Task Manager App is web application for managing tasks. It allows users to add, edit, and delete tasks, providing a streamlined interface for organizing and tracking their to-do list.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+Add Task: Users can add new tasks by entering a title and clicking the "Add Task" button.
 
-Currently, two official plugins are available:
+Edit Task: Users can edit the title of an existing task by clicking the "Edit" button, making changes, and then clicking "Submit."
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Delete Task: Users can delete a task by clicking the "Delete" button associated with each task.
 
-## Expanding the ESLint configuration
+Getting Started
+Prerequisites
+Node.js installed on your machine.
+Installation
+Clone the repository:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+git clone https://github.com/naresh354/taskmanagerapp
+Navigate to the project directory:
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+cd task-manager-app
+Install dependencies:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+npm install
+Usage
+Start the development server:
+
+npm start
+Open your browser and visit http://localhost:3000 to view the app.
+
+Use the app to add, edit, and delete tasks.
